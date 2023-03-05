@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+.heading{
+    width: 100%;
+    max-width: 400px;
+    margin-left: 470px;
+    font-family: poppins;
+    text-align: center;
+}
+.heading1{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+.heading2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.heading3{
+    font-size: 13px;
+    margin-top: 0px;
+    color: hsl(229, 6%, 66%);
+}
+.box{
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0rem 5px 10px hsl(229, 6%, 66%);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box-header{
+    margin-top: 0px;
+    font-family: poppins;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.box-text{
+    font-family: poppins;
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+}
+.image{
+    padding-left: 150px;
+    width: 50px;
+    margin-top: 20px;
+}
+.boxes{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box1{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.box2{
+    margin-bottom: 30px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.box3{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.box4{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+@media (max-width: 600px) {
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading{
+        margin-left: 50px;
+        width: 100%;
+        max-width: 260px;
+    }
+    .heading1{
+        font-size: 20px;
+    }
+    .heading2{
+        font-size: 20px;
+    }
+    .heading3{
+        font-size: 13px;
+    }
+}
